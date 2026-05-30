@@ -71,9 +71,14 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-4">
-            <button className="hidden sm:flex zzz-button bg-brand-secondary/80 border border-white/10 text-white font-black hover:bg-brand-secondary glow-green">
+            <a 
+              href="https://www.effectivecpmnetwork.com/dfjmcjc1?key=26dbbe0e415b766af5681038e219d2e0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden sm:flex zzz-button bg-brand-secondary/80 border border-white/10 text-white font-black hover:bg-brand-secondary glow-green items-center gap-2"
+            >
               <ShieldCheck className="w-4 h-4" /> NO KEY
-            </button>
+            </a>
             <button 
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="md:hidden text-white/60 p-2"
@@ -161,6 +166,12 @@ export default function App() {
                 All scripts are currently <span className="text-brand-secondary">Online</span> and working for Delta/Arceus/Hydrogen.
               </p>
             </section>
+
+            {/* Sponsored Native Banner */}
+            <div className="zzz-card border-white/5 bg-white/[0.01] p-4">
+              <span className="zzz-label mb-3 block">Sponsored</span>
+              <div id="container-65fe59d5303a63f996c53206702d0102" className="min-h-[120px] w-full flex items-center justify-center"></div>
+            </div>
           </aside>
 
           {/* Script Grid */}
@@ -342,7 +353,14 @@ export default function App() {
                              <div className="w-full h-1.5 bg-white/5 rounded" />
                              <div className="w-2/3 h-1.5 bg-white/5 rounded" />
                            </div>
-                           <div className="h-6 bg-brand-primary rounded-md flex items-center justify-center text-[6px] font-bold text-white">DOWNLOAD APK</div>
+                           <a 
+                             href="https://www.effectivecpmnetwork.com/dfjmcjc1?key=26dbbe0e415b766af5681038e219d2e0"
+                             target="_blank"
+                             rel="noopener noreferrer"
+                             className="h-6 bg-brand-primary rounded-md flex items-center justify-center text-[6px] font-bold text-white hover:bg-red-600 transition-colors cursor-pointer"
+                           >
+                             DOWNLOAD APK
+                           </a>
                          </div>
                          {/* Arrow */}
                          <div className="flex items-center">
@@ -358,7 +376,14 @@ export default function App() {
                              </div>
                              <div className="text-[6px] font-black text-white/40 uppercase">EXECUTING...</div>
                            </div>
-                           <div className="h-6 bg-brand-secondary rounded-md flex items-center justify-center text-[6px] font-bold text-white">READY TO PLAY</div>
+                           <a 
+                             href="https://www.effectivecpmnetwork.com/dfjmcjc1?key=26dbbe0e415b766af5681038e219d2e0"
+                             target="_blank"
+                             rel="noopener noreferrer"
+                             className="h-6 bg-brand-secondary rounded-md flex items-center justify-center text-[6px] font-bold text-white hover:bg-green-600 transition-colors cursor-pointer"
+                           >
+                             READY TO PLAY
+                           </a>
                          </div>
                        </div>
                      </div>
@@ -417,9 +442,9 @@ export default function App() {
             <div>
               <h4 className="zzz-label mb-4">Quick Links</h4>
               <ul className="text-[10px] font-mono space-y-2 uppercase text-white/30">
-                <li><a href="#" className="hover:text-brand-primary transition-colors">How to use</a></li>
-                <li><a href="#" className="hover:text-brand-primary transition-colors">Best Executors</a></li>
-                <li><a href="#" className="hover:text-brand-primary transition-colors">Discord Server</a></li>
+                <li><a href="https://www.effectivecpmnetwork.com/dfjmcjc1?key=26dbbe0e415b766af5681038e219d2e0" target="_blank" rel="noopener noreferrer" className="hover:text-brand-primary transition-colors">How to use</a></li>
+                <li><a href="https://www.effectivecpmnetwork.com/dfjmcjc1?key=26dbbe0e415b766af5681038e219d2e0" target="_blank" rel="noopener noreferrer" className="hover:text-brand-primary transition-colors">Best Executors</a></li>
+                <li><a href="https://www.effectivecpmnetwork.com/dfjmcjc1?key=26dbbe0e415b766af5681038e219d2e0" target="_blank" rel="noopener noreferrer" className="hover:text-brand-primary transition-colors">Discord Server</a></li>
               </ul>
             </div>
 
